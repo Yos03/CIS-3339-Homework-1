@@ -1,6 +1,6 @@
 <script setup>
 import { computed, onMounted } from 'vue';
-import { useStudentStore } from '../stores/students';
+import { useStudentStore } from '../stores/students.js';
 import StudentForm from '../components/StudentForm.vue';
 import StudentSearch from '../components/StudentSearch.vue';
 import StudentTable from '../components/StudentTable.vue';
